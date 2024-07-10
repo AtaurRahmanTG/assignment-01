@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* banner styles */
+.banner{
+    background-image: url(../assets/banner.png);
+    /* border: 2px solid red; */
+    width: 1440px;
+    height: 652px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    width: 998px;
+    height: 582px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.banner-content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 68px; 
+}
+
+.banner-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.banner-image{
+    width: 240.28px;
+    height: 240px; 
+    margin: 0 378px;
+}
+.banner-button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.banner-button{
+    width: 208px;
+    height: 66px;
+    margin:20px;
+    margin-bottom: 30px;
+    border-radius: 8px; 
+    background: rgb(13, 19, 33);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-section{
+    background-image: url(../assets/handshake.jpg);
+border: 2px solid red;
+margin: 0 auto;
+width: 1140px;
+height: 314px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.support-section h1{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
+.support-section p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+
+.contact-text{
+    width: 548px;
+height: 57px;
+padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+.contact-button{
+    width: 120px;
+height: 58px;
+padding: 17px 20px 17px 20px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+ #footer{
+    width: 1440px;
+height: 100px;
+margin: 0 auto;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        
+        color: black;
+        padding: 32px 150px 32px 150px;
+    
+ }
+ .author p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ .social-media-link a{ 
+    color: white;
+    margin: 0 10px; 
+ }
